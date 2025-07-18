@@ -32,12 +32,12 @@ REST_FRAMEWORK = {
     )
 }
 
-
+CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://inventory-manager-88v0hoe62-rafael-matos-projects.vercel.app",
-    "https://inventory-manager-zeta-sooty.vercel.app",
-    "https://inventory-manager-66szi1qtd-rafael-matos-projects.vercel.app",
+]
+CORS_ALLOWED_ORIGIN_REGEXES = [
+    r"^https://inventory-manager-.*\.vercel\.app$",
 ]
 
 MIDDLEWARE = [

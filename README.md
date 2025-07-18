@@ -5,7 +5,7 @@ The application provides an intuitive interface for managing **products, categor
 
 ## 🌐 Live Demo
 Access the application here:  
-👉**[https://inventory-manager-zeta-sooty.vercel.app/](https://inventory-manager-zeta-sooty.vercel.app)**
+👉 **[https://inventory-manager-zeta-sooty.vercel.app/](https://inventory-manager-zeta-sooty.vercel.app)
 - **API Docs:** `/api/docs/`
   
 ## Features

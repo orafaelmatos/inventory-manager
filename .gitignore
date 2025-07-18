@@ -1,0 +1,8 @@
+inventory_system/.env
+frontend/node_modules/
+__pycache__/
+*.pyc
+*/migrations/*.pyc
+*/migrations/*.py
+*/migrations/__pycache__/
+.vscode/

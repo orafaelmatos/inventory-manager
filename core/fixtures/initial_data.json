@@ -1,0 +1,26 @@
+[
+  { "model": "core.category", "pk": 1, "fields": { "name": "Eletrônicos" } },
+  { "model": "core.category", "pk": 2, "fields": { "name": "Móveis" } },
+  { "model": "core.category", "pk": 3, "fields": { "name": "Ferramentas" } },
+
+  { "model": "core.supplier", "pk": 1, "fields": { "name": "TechSupply", "contact_email": "tecsupply@empresa.com" } },
+  { "model": "core.supplier", "pk": 2, "fields": { "name": "Moveis & Cia", "contact_email": "contato@moveiscia.com" } },
+
+  { "model": "core.product", "pk": 1, "fields": { "name": "Notebook Dell", "sku": "NTB-DL-001", "stock_quantity": 12, "min_stock": 5, "price": "3500.00", "category": 1, "supplier": 1, "created_at": "2025-01-15T10:30:00Z" } },
+  { "model": "core.product", "pk": 2, "fields": { "name": "Monitor LG 24\"", "sku": "MON-LG-002", "stock_quantity": 15, "min_stock": 5, "price": "850.00", "category": 1, "supplier": 1, "created_at": "2025-02-12T11:00:00Z" } },
+  { "model": "core.product", "pk": 3, "fields": { "name": "Teclado Mecânico", "sku": "TEC-MEC-003", "stock_quantity": 30, "min_stock": 10, "price": "250.00", "category": 1, "supplier": 1, "created_at": "2025-03-05T09:15:00Z" } },
+  { "model": "core.product", "pk": 4, "fields": { "name": "Mouse Gamer", "sku": "MOU-GAM-004", "stock_quantity": 40, "min_stock": 15, "price": "180.00", "category": 1, "supplier": 1, "created_at": "2025-04-20T14:20:00Z" } },
+  { "model": "core.product", "pk": 5, "fields": { "name": "Impressora HP", "sku": "IMP-HP-005", "stock_quantity": 8, "min_stock": 3, "price": "1200.00", "category": 1, "supplier": 1, "created_at": "2025-05-18T10:00:00Z" } },
+
+  { "model": "core.product", "pk": 6, "fields": { "name": "Mesa Escritório", "sku": "MESA-001", "stock_quantity": 8, "min_stock": 3, "price": "750.00", "category": 2, "supplier": 2, "created_at": "2025-01-14T09:00:00Z" } },
+  { "model": "core.product", "pk": 7, "fields": { "name": "Cadeira Ergonômica", "sku": "CAD-ERG-002", "stock_quantity": 20, "min_stock": 8, "price": "950.00", "category": 2, "supplier": 2, "created_at": "2025-02-22T13:45:00Z" } },
+  { "model": "core.product", "pk": 8, "fields": { "name": "Armário 2 Portas", "sku": "ARM-002", "stock_quantity": 5, "min_stock": 2, "price": "1350.00", "category": 2, "supplier": 2, "created_at": "2025-03-10T11:30:00Z" } },
+  { "model": "core.product", "pk": 9, "fields": { "name": "Estante de Livros", "sku": "EST-LIV-003", "stock_quantity": 12, "min_stock": 4, "price": "650.00", "category": 2, "supplier": 2, "created_at": "2025-04-05T10:15:00Z" } },
+  { "model": "core.product", "pk": 10, "fields": { "name": "Bancada Industrial", "sku": "BNC-IND-004", "stock_quantity": 3, "min_stock": 1, "price": "2500.00", "category": 2, "supplier": 2, "created_at": "2025-06-01T08:40:00Z" } },
+
+  { "model": "core.product", "pk": 11, "fields": { "name": "Furadeira Bosch", "sku": "FURA-001", "stock_quantity": 20, "min_stock": 10, "price": "350.00", "category": 3, "supplier": 1, "created_at": "2025-01-10T08:00:00Z" } },
+  { "model": "core.product", "pk": 12, "fields": { "name": "Parafusadeira Makita", "sku": "PARA-002", "stock_quantity": 15, "min_stock": 5, "price": "420.00", "category": 3, "supplier": 1, "created_at": "2025-02-18T15:30:00Z" } },
+  { "model": "core.product", "pk": 13, "fields": { "name": "Serra Circular", "sku": "SERR-003", "stock_quantity": 10, "min_stock": 3, "price": "780.00", "category": 3, "supplier": 1, "created_at": "2025-03-15T16:00:00Z" } },
+  { "model": "core.product", "pk": 14, "fields": { "name": "Chave de Impacto", "sku": "CHV-IMP-004", "stock_quantity": 18, "min_stock": 7, "price": "530.00", "category": 3, "supplier": 1, "created_at": "2025-05-12T09:10:00Z" } },
+  { "model": "core.product", "pk": 15, "fields": { "name": "Lixadeira Orbital", "sku": "LIX-ORB-005", "stock_quantity": 9, "min_stock": 4, "price": "310.00", "category": 3, "supplier": 1, "created_at": "2025-06-05T14:50:00Z" } }
+]

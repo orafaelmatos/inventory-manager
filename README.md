@@ -6,7 +6,7 @@ The application provides an intuitive interface for managing **products, categor
 ## 🌐 Live Demo
 Access the application here:  
 👉 [https://inventory-manager-zeta-sooty.vercel.app/](https://inventory-manager-zeta-sooty.vercel.app)
-**API Docs:** `[/api/docs/](https://inventory-manager-t37m.onrender.com/api/docs)`
+- **API Docs:** [https://inventory-manager-t37m.onrender.com/api/docs](https://inventory-manager-t37m.onrender.com/api/docs)
   
 ## Features
 - ✅ **User Authentication** (Sign Up, Login, Logout)
@@ -24,7 +24,7 @@ Access the application here:
 - [Django](https://www.djangoproject.com/)
 - [Django REST Framework](https://www.django-rest-framework.org/)
 - [django-cors-headers](https://github.com/adamchainz/django-cors-headers)
-- [drf-spectacular](https://drf-spectacular.readthedocs.io/) (OpenAPI Docs)
+- [drf-spectacular](https://drf-spectacular.readthedocs.io/)
 
 ### **Frontend**
 - [React](https://reactjs.org/)

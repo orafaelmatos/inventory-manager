@@ -1,10 +1,11 @@
 # 📦 Inventory Manager
 
-## A full-stack **Inventory Management System** built with **Django REST Framework** (API) and **React + Tailwind CSS** (UI).  
+A full-stack **Inventory Management System** built with **Django REST Framework** (API) and **React + Tailwind CSS** (UI).  
 The application provides an intuitive interface for managing **products, categories, suppliers**, and user authentication.
 
 ## 🌐 Live Demo
-[Click Here](https://inventory-manager-zeta-sooty.vercel.app/products) 
+Access the application here:  
+👉**[https://inventory-manager-zeta-sooty.vercel.app](https://inventory-manager-zeta-sooty.vercel.app)**
 - **API Docs:** `/api/docs/`
   
 ## Features

@@ -34,7 +34,7 @@ REST_FRAMEWORK = {
 
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
+    "http://inventory-manager-zeta-sooty.vercel.app:5173",
 ]
 
 MIDDLEWARE = [
